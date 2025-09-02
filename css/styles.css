@@ -82,7 +82,7 @@ p {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 2rem 0;
     transition: all 0.3s ease;
 }
 
@@ -130,7 +130,7 @@ p {
 
 /* Hero Section */
 .hero {
-    padding: 120px 0 80px;
+    padding: 160px 0 80px;
     background: linear-gradient(135deg, #ffefd3 0%, #ffc49b 100%);
     min-height: 100vh;
     display: flex;
@@ -780,7 +780,7 @@ p {
     }
 
     .hero {
-        padding: 100px 0 60px;
+        padding: 140px 0 60px;
     }
 
     .hero-title {
