@@ -184,7 +184,7 @@ p {
 }
 
 .logo-image {
-    max-width: 200px;
+    max-width: 400px;
     height: auto;
     filter: drop-shadow(0 4px 8px rgba(0, 27, 46, 0.2));
     transition: transform 0.3s ease;
@@ -743,7 +743,7 @@ p {
     }
 
     .logo-image {
-        max-width: 150px;
+        max-width: 300px;
     }
 
     .about-content,
@@ -806,7 +806,7 @@ p {
     }
 
     .logo-image {
-        max-width: 120px;
+        max-width: 240px;
     }
 }
 
