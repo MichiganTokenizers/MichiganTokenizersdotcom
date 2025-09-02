@@ -101,8 +101,8 @@ p {
 }
 
 .nav-logo-image {
-    height: 40px;
-    width: auto;
+    height: 100px;
+    width: 100px;
     transition: transform 0.3s ease;
 }
 
@@ -757,7 +757,8 @@ p {
     }
 
     .nav-logo-image {
-        height: 35px;
+        height: 80px;
+        width: 80px;
     }
 
     .about-content,
@@ -824,7 +825,8 @@ p {
     }
 
     .nav-logo-image {
-        height: 30px;
+        height: 60px;
+        width: 60px;
     }
 }
 
