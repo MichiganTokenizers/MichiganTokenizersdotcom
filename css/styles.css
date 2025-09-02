@@ -171,8 +171,27 @@ p {
 
 .hero-visual {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
+}
+
+.hero-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    max-width: 200px;
+    height: auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 27, 46, 0.2));
+    transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+    transform: scale(1.05);
 }
 
 .blockchain-animation {
@@ -723,6 +742,10 @@ p {
         justify-content: center;
     }
 
+    .logo-image {
+        max-width: 150px;
+    }
+
     .about-content,
     .partnerships-content,
     .contact-content {
@@ -780,6 +803,10 @@ p {
 
     .contact-form {
         padding: 1.5rem;
+    }
+
+    .logo-image {
+        max-width: 120px;
     }
 }
 
