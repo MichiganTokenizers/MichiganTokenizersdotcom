@@ -158,7 +158,7 @@ p {
 
 .hero-subtitle {
     font-size: 1.2rem;
-    color: #adbbc4;
+    color: #001b2e;
     margin-bottom: 2rem;
     line-height: 1.7;
 }
@@ -296,7 +296,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #024421;
+    color: #001b2e;
 }
 
 .image-placeholder i {
@@ -306,7 +306,7 @@ p {
 
 .image-placeholder p {
     font-weight: 500;
-    color: #adbbc4;
+    color: #001b2e;
 }
 
 /* Services Section */
@@ -538,7 +538,7 @@ p {
 }
 
 .logo-item span {
-    color: #adbbc4;
+    color: #001b2e;
     font-weight: 500;
 }
 
