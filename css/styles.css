@@ -95,18 +95,7 @@ p {
     align-items: center;
 }
 
-.nav-logo h2 {
-    color: #024421;
-    margin: 0;
-}
 
-.nav-logo-image {
-    transition: transform 0.3s ease;
-}
-
-.nav-logo-image:hover {
-    transform: scale(1.05);
-}
 
 .nav-menu {
     display: flex;
