@@ -100,6 +100,16 @@ p {
     margin: 0;
 }
 
+.nav-logo-image {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo-image:hover {
+    transform: scale(1.05);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -746,6 +756,10 @@ p {
         max-width: 300px;
     }
 
+    .nav-logo-image {
+        height: 35px;
+    }
+
     .about-content,
     .partnerships-content,
     .contact-content {
@@ -807,6 +821,10 @@ p {
 
     .logo-image {
         max-width: 240px;
+    }
+
+    .nav-logo-image {
+        height: 30px;
     }
 }
 
