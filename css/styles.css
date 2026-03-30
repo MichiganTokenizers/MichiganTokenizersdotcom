@@ -498,6 +498,108 @@ p {
     line-height: 1.6;
 }
 
+/* Featured service card accent */
+.service-card.featured {
+    border: 2px solid #024421;
+    position: relative;
+}
+
+/* In-development badge on project cards */
+.badge-in-dev {
+    display: inline-block;
+    background: linear-gradient(135deg, #024421 0%, #001b2e 100%);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/* Coming-soon project image variant */
+.project-image--coming-soon {
+    background: linear-gradient(135deg, #001b2e 0%, #024421 100%);
+    opacity: 0.85;
+}
+
+/* Ecosystems Section */
+.ecosystems {
+    padding: 80px 0;
+    background: #001b2e;
+}
+
+.ecosystems .section-header h2 {
+    color: white;
+}
+
+.ecosystems .section-header p {
+    color: #adbbc4;
+}
+
+.ecosystem-group-label {
+    color: #ffc49b;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.ecosystem-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.ecosystem-item {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.ecosystem-item:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.ecosystem-icon {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, #024421 0%, #ffc49b 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem;
+}
+
+.ecosystem-icon i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.ecosystem-item h5 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.ecosystem-item p {
+    color: #adbbc4;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
 /* Partnerships Section */
 .partnerships {
     padding: 80px 0;
@@ -777,6 +879,10 @@ p {
         grid-template-columns: 1fr;
     }
 
+    .ecosystem-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .logo-grid {
         grid-template-columns: 1fr;
     }
@@ -810,6 +916,10 @@ p {
 
     .service-card {
         padding: 1.5rem;
+    }
+
+    .ecosystem-grid {
+        grid-template-columns: 1fr;
     }
 
     .contact-form {
